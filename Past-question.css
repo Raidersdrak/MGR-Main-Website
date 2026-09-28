@@ -1,0 +1,66 @@
+.Level {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 1%;
+   
+}
+.Level a {
+    
+   
+}
+
+.past {
+    text-align: center;
+    padding: 60px 5%;
+}
+.hat{
+    font-size: 50px;
+}
+.past h1 {
+    font-size: 60px;
+    color: #073b75;
+    margin-bottom: 5px;
+}
+.past-intro {
+    font-size: 30px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.Level {
+    display: flex;
+    justify-content: center;
+   gap: 25px;
+   flex-wrap: wrap;
+   margin-bottom: 30px;
+
+}
+.level-card {
+    width: 220px;
+    min-height: 160px;
+    background-color: white;
+    border: 1px solid #d9e2ee;
+    border-radius: 15px;
+    padding: 25px;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: 0 4px 12px;
+    rgba(0, 0, 0.08);
+}
+.level-card h2 {
+    color: #073b75;
+    font-size: 25px;
+}
+.level-card p {
+    color: #555;
+    font-size: 16px;
+}
+.level-card:hover {
+    transform: translateY(-5px);
+}
+
+.mth-202 img {
+    height: 350px;
+    width: 350px;
+}
+

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+<fieldset>
+<legend>PERSONAL INFORMATION</legend>
+<div class="personal-fields">
+<div  class="form-group">
+<label for="First Name">First Name</label>
+<input type="text" id="First Name" name="First Name" placeholder="Eg. Emma" required> 
+</div>
+<div class="form-group">
+<label for="Middle Name">Middle name</label>
+<input type="text" id="Middle Name" name="Middle Name" placeholder="Eg.Ngele" required>
+</div>
+<div>
+<label for="Surname">Surname</label>
+<input type="text" id="Surname" name="Surname" placeholder="Eg. Emma" required>
+</div>
+<div>
+<label for="inst">MGR Institution 1</label>
+<input type="text" id="inst" name="inst" value="Paul University">
+ </div>
+</div>
+ <br>
+
+</fieldset>
+
+<fieldset>
+<legend>CONTACT DETAILS</legend>
+<div class="contact-fields">
+<div class="form-group">
+    <label for="phone">  Phone Number </label>
+<input type="text" id="Phone" name="Phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required> <br>
+</div>
+<div class="form-group">
+<label for="Email">  Email   </label>
+<input type="email" id="email" name="email" placeholder="eg. xyzagbox.com"> <br>
+</div>
+</div>
+</fieldset>
+
+<fieldset>
+<legend> CHOOSE COURSE </legend>
+<div class="course-fields">
+<div class="course-group">
+<label for="Department-Sciences">  Department(Sciences)   </label>
+<select id="Department-Sciences" name="Department" required>
+        <option>--Select--</option>
+        <option>Computer Sciences</option>
+        <option>Nursing</option>
+        <option>Law</option>
+        <option>Microbiology</option>
+        <option>biochemistry</option>
+        <option>Med lab</option>
+         <option>Radiography</option>
+          <option>Physiotherapy</option>
+</select>
+</div>
+<div class="course-group">
+<label for="Department-Arts">Department(Arts)</label>
+<select name="Department" id="Department" required>
+    <option>--Select--</option>
+    <option>Economics</option>
+     <option>Accounting</option>
+      <option>Mass com</option>
+</select>
+</div>
+</div>
+</fieldset>
+
+<fieldset>
+<legend>LOGIN</legend>
+<label> Username:          </label>
+<input>
+
+<label>   Password        </label>
+<input>
+
+<label>    Re-type Password       </label>
+<input>
+
+
+
+</fieldset>
+</form>
+</body>
+</html>
